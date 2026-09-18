@@ -1,32 +1,33 @@
-# I build fullstack apps. Then I break them. Then I fix them.
+# I build applications. Then I break them. Then I ship the fix.
 
-Fullstack engineer working the offensive side of AppSec. I ship production web apps — frontend, backend, databases — and then I go after them: writing custom exploit scripts, finding the vulnerable patterns, and publishing the secure fixes alongside them.
-
-### About me
-
-I'm a fullstack software engineer who got tired of security advice written by people who don't write code. So I do both. I work through the PortSwigger Web Security Academy and automate every lab I solve with custom tooling in **Go** and **Python**, then document the vulnerable pattern *and* the fix. No pentesting certs — just real exploits, real fixes, and code you can read.
-
-Most pentesters don't ship production code. I do. That's the whole point.
+Software engineer in Nairobi. I build the systems businesses run their money through,
+then attack them across tenant boundaries, payment webhooks and authorization paths.
 
 ### What I'm working on
 
-- **[appsec-toolkit](https://github.com/PaulAppSec/appsec-toolkit)** — an open-source collection of exploit scripts and web security tooling (Go/Python), grown from real PortSwigger labs.
-- **PortSwigger lab automation** — turning manual lab walkthroughs into repeatable scripts, so the technique outlives the write-up.
-- **Burp Suite extensions** — building the tooling I wished existed while breaking my own apps.
+- **[kartly](https://github.com/PaulAppSec/kartly)** — a regression harness for 24 web
+  vulnerability classes. An exploit test proves each bug is live; a fixed test, reusing the
+  same attack code, proves each fix holds. 48 tests in two suites.
+- **[semgrep-appsec-rules](https://github.com/PaulAppSec/semgrep-appsec-rules)** — rules for
+  the bug classes I keep finding: IDOR, mass assignment, path traversal, fail-open error
+  handling. Each one tested against fixtures in CI. A finding is a snapshot; a rule is a ratchet.
+- **Four operational systems** — parking, point of sale, rent and school fees, about 120,000
+  lines, built solo and all settling money through the same rail.
+  [Status of each](https://paulappsec.dev/systems).
 
-### Tech & Tools
+Currently working through the PortSwigger Web Security Academy labs. No certification yet —
+the work above is the evidence.
 
-**Languages:** Go · Python · JavaScript / TypeScript
-**Frontend / Backend:** React · Node.js
-**Data:** PostgreSQL
-**Security:** Burp Suite · PortSwigger Web Security Academy · custom exploit dev
+### Tech
 
-### Connect
+**Languages:** Python · Go · TypeScript · SQL
+**Build:** FastAPI · Node · React · PostgreSQL · Cloudflare Workers
+**Security:** Semgrep · Burp Suite · custom exploit dev
 
-- **X:** [@PaulAppSec](https://twitter.com/PaulAppSec)
-- **Blog:** [link placeholder]
-- **LinkedIn:** [link placeholder]
+### Elsewhere
 
----
-
-*I ship code, not just findings. Real exploits, real fixes, no certs.*
+- **Site:** [paulappsec.dev](https://paulappsec.dev) — every claim with
+  [the command to check it](https://paulappsec.dev/verify)
+- **Writing:** [paulappsec.hashnode.dev](https://paulappsec.hashnode.dev)
+- **X:** [@PaulAppSec](https://x.com/PaulAppSec)
+- **LinkedIn:** [in/paulappsec](https://www.linkedin.com/in/paulappsec/)
